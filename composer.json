@@ -1,0 +1,36 @@
+{
+    "name": "vitoutry-laravel/charts",
+    "description": "Server-side data builder for Chart.js",
+    "keywords": [
+        "vitoutry-laravel",
+        "charts",
+        "laravel",
+        "chartjs"
+    ],
+    "homepage": "https://github.com/vitoutry-laravel/charts",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Vitou Try",
+        "email": "vitoutry@gmail.com",
+        "homepage": "https://laravel-vitoutry.com",
+        "role": "Developer"
+    }],
+    "require": {
+        "laravel/framework": "^7.0|^8.0",
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vitoutry\\Charts\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vitoutry\\Charts\\Providers\\ChartServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
